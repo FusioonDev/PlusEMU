@@ -1,0 +1,16 @@
+﻿Added:
+- Minimum size configurable from the database, 'server_settings' -> 'user.ssoticket.length'
+- SSO Ticket is not anymore resetted while debugging
+- Added column 'sale_price' to 'rooms'
+- Added column 'lay_enabled' to 'rooms'
+- Added 'catalog_subscriptions'
+
+Edited:
+- Fixed banzai teleport interactor
+- Edited 'subscriptions' to fit Club Subscriptions
+- Removed 'rank_vip' from 'users'
+
+Removed:
+- Removed 'subscriptions'
+- Removed all catalog check about vip_page due to subscriptions removed
+- Removed 'min_vip' column from 'catalogue_page'
